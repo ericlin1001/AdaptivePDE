@@ -1,13 +1,11 @@
-###Adpative Parallel Differential Evolution for PEC
-#What's purpose of the paper? Why do i want to write it?
----
+#Adpative Parallel Differential Evolution for PEC
+##What's purpose of the paper? Why do i want to write it?
 1.It features on adaptive assgining task.
 2.Achieving the theoretical limit of speedup ratio.
 3.On different setting cpu, we achive the best time.
 
 
-#What do I want from the program? What's the program for?
----
+##What do I want from the program? What's the program for?
 Cluster setting:
 ComputerNo. Note hasChecked
 1		MainHost 
@@ -43,8 +41,7 @@ one core's performance: i7>i5>i3
 Data needed for paper:
 Compared with universal distribution in following setting:
 
-#What's the result i want?(Vision)
----
+##What's the result i want?(Vision)
 If the computers are different, my algorithm is better.
 If the computers are all the same, my algorithm is not worser.
 want prove that serial version
@@ -66,10 +63,10 @@ total	6		30
 i5		5		6		30		31
 
 
-#How to do that:
+##How to do that:
 Compare serial version with my version over 2 experimental settings.
 
-#What will i get?
+##What will i get?
 my version is better, over all cases.
 
 
