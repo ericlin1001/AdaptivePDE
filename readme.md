@@ -2,9 +2,9 @@
 Well, this is a basic project plan.
 
 #What's purpose of the paper? Why do i want to write it?
-1.It features on adaptive assgining task.
-2.Achieving the theoretical limit of speedup ratio.
-3.On different setting cpu, we achive the best time.
+1. It features on adaptive assgining task.
+2. Achieving the theoretical limit of speedup ratio.
+3. On different setting cpu, we achive the best time.
 
 
 #What do I want from the program? What's the program for?
