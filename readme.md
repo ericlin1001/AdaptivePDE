@@ -55,11 +55,11 @@ Always land the master node in high-performance computer(i7).
 
 	Purpose:Keep each core processes more data, such that the differences in cpu can be realized.
 
-			cores	cores
-	i3		2		10
-	i5		2		10
-	i7		2		10
-	total	6		30
+				cores	cores
+		i3		2		10
+		i5		2		10
+		i7		2		10
+		total	6		30
 
 2. Computers are the same:
 			cores	cores	cores	cores
