@@ -50,6 +50,7 @@ I want prove that my version is better, over all cases.
 OldPaper: 1,2,6,26,51,101
 
 Always land the master node in high-performance computer(i7).
+
 1. Computers are different:
 
 	Purpose:Keep each core processes more data, such that the differences in cpu can be realized.
