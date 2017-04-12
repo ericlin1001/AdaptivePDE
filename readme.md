@@ -1,16 +1,21 @@
 # Adpative Parallel Differential Evolution for PEC
-Well, this is a basic project plan.
+A parallel program running in cluster to solve Power Electronic Circuit (PEC) problem, https://github.
+com/ericlin1001/AdaptivePDE
 
-## What's purpose of the paper? Why do i want to write it?
-1. It features on adaptive assgining task.
-2. Achieving the theoretical limit of speedup ratio.
-3. On different setting cpu, we achive the best time.
-
-## Why I need to write this paper?
-Because, it's a leading action for me to publish a trans paper. 
-Publishing a trans paper, means I can get the money I need, that I do sth I want to do.
+# What has it achieved?
+* Parallelized Differential Evolution (DE) algorithm, achieved approximately 50% parallel efficiency
+* Support for adaptively distributing tasks among cores, efficiently utilizing all CPU cores
+* Defined an unified Json format for setting up all DE arguments
+* Published corresponding paper: Parallel Differential Evolution Based on Distributed Cloud Computing Resources for Power Electronic Circuit Optimization in GECCO '16 Companion
 
 
+# What's purpose of the experiment?
+1. Adaptively assign tasks among all cores.
+2. Achieve the theoretical limit of speedup ratio.
+3. On different setting of CPUs, achieve the least time.
+
+
+# About the experiment
 ## Cluster Setting&Info:  
 ```
 All the computers:
@@ -46,24 +51,13 @@ All the computers:
 	109~127			7
 ```
 
-### Run one serial program on each computer:  
-one core's performance: i7>i5>i3
-
-
-
-## What's the result i want?(Vision)
+## What's the result i want?
 * If the computers are different, my algorithm is better.
 * If the computers are all the same, my algorithm is not worser.
 
-I want prove that my version is better, over all cases.
-
-
-
-
-
 ## Experimental Setting
 ### In last paper
-Runing in 1,2,6,26,51,101 cores i5.
+Runing on 1,2,6,26,51,101 cores i5.
 
 ### In current paper
 Notice: Always land the master node in high-performance computer(i7).
@@ -87,22 +81,10 @@ Notice: Always land the master node in high-performance computer(i7).
 	i5		5		6		30		31
 ```
 
-## How to do that:
+### How to do that:
 Compare serial version with my version over the above 2 experimental settings.
 That means, get the last version program and get its result over the settings, and implement my version and get my results. And finally, analyse two results, and get the conclusion.
 
-### Steps
-1. Get the last version program.
-2. Run the program and get result.
-3. Implement my version
-	1. Identify some technical problems.
-	2. Tackle some technical problems.
-4. Run my program.
-5. Analyse results.
-
-
-## Next actions
-Get the last version program, and get it run.
 
 
 
