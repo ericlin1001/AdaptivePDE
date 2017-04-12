@@ -1,6 +1,5 @@
 # Adpative Parallel Differential Evolution for PEC
-A parallel program running in cluster to solve Power Electronic Circuit (PEC) problem, https://github.
-com/ericlin1001/AdaptivePDE
+A parallel program running in cluster to solve Power Electronic Circuit (PEC) problem, https://github.com/ericlin1001/AdaptivePDE
 
 # What has it achieved?
 * Parallelized Differential Evolution (DE) algorithm, achieved approximately 50% parallel efficiency
